@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
     <!-- Suite -->
-    <test name="FirtsPriority">
+    <test name="D3Practice">
         <groups>
             <run>
-                <include name="C" />
-                <exclude name="D" />
+                <exclude name="C" />
+                <include name="D" />
             </run>
         </groups>
         <classes>
@@ -14,13 +14,4 @@
             <class name="TestNG.Day3Test"/>
         </classes>
     </test>
-
-    <!-- Test -->
-<!--    <test name="SecondPriority">-->
-<!--        <classes>-->
-<!--            <class name="TestNG.TestNGGrouping2"/>-->
-<!--            <class name="TestNG.FacebookLoginDataProvider"/>-->
-<!--            <class name="TestNG.TestNGPriority"/>-->
-<!--        </classes>-->
-<!--    </test>-->
 </suite>
